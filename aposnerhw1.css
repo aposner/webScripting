@@ -1,0 +1,25 @@
+<style>
+body{
+  background-color: #FFFFFF;
+  color: black; 
+  font-size: 14pt; 
+  margin:0px;}      
+h1{
+  color:navy;
+  margin-left: 20px}
+img{
+  
+}
+table, tr, td{
+  text-align: center;
+  width: 550px;
+}
+        a:link{color:pink;}
+        a:visited{color:purple;}
+        a:hover{color:aqua;}
+        a:active{color:lime;}
+
+header{
+  background-color: #D9FDFC;
+}
+</style>
