@@ -14,12 +14,44 @@ table, tr, td{
   text-align: center;
   width: 550px;
 }
-        a:link{color:pink;}
-        a:visited{color:purple;}
+        a:link{color:white;}
+        /*a:visited{color:purple;}*/
         a:hover{color:aqua;}
         a:active{color:lime;}
 
 header{
   background-color: #D9FDFC;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 </style>

@@ -2,16 +2,35 @@
 <html>
 
 -->
-
+<!DOCTYPE html>
 <html>
   <head>
-  <header>
-    <title>Ava Posner</title>
-    <link rel="stylesheet" type="text/css" href="aposnerhw1.css" />
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/file.js"></script>
+    <link rel="stylesheet" type="text/css" href="aposnerhw1.css"/>
   </head>  
     <body>
-      <center><h1>All about me!</i>!</h1><img src=ava1.jpg height=361px width=522px></center>
+      <nav> 
+        <!-- <div class="w3-bar w3-light-grey"> -->
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li style="float:right"><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    <title>Ava Posner</title>
+        <script>
+      var favBand = "Grateful Dead";
+      window.onload = function secretMessage() {
+           console.log("My favorite band is " + favBand);
+      } 
+       </script>
+
+      <center><h1>All about me!</i>!</h1></center>
+      <img id="ava" src="img/ava1.jpg" height=361px width=522px />
         <h4><ul>
+        <button id="clickme">Show or Hide</button>
         <li>My major is IT</li>
         <li>I am graduating May 2018!!!</li>
         <li>Rutherford, NJ</li>&nbsp;&nbsp;
@@ -21,7 +40,7 @@
         <ol>
           <li><b>Why am I taking this class?</b> After learning many things on the job as a web developer intern/user experience intern at Smithsonian Channel, I decided that I wanted to learn more scripts about front end design that I can then put forward into my first full-time position as a visual designer. 
           </p></li>
-          <center><img src=code.jpg width=207px height=368px/></center>
+          <center><img src=img/code.jpg width=207px height=368px/></center>
           <p>
           <li><b>What experience do you have with programming/web development?</b> I started programming Java and C++ in the beginning of high school and towards the end, I learned HTML and CSS. At Pace, for the required Web authoring course, that is when I learned Javascript. <p>During two of my internships, I used front end technologies. 
           </p></li>
@@ -30,5 +49,9 @@
           </p></li>
           <center><img src=pru.png width=350px height=250px/></a></center>
       </ol>
+      <!-- <div id="stop" class="scrollTop">
+    <span><a href="">Top</a></span> -->
+    <button id="top">Back to Top</button>
+    
     </body>
 </html>
